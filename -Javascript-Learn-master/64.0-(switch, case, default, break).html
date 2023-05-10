@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    
+    <meta charset="utf-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+        // switch   :Koşul 
+        // case     :Koşul kontrolü
+        // break    :Konşul kontrolü Sonlandırması. 
+        // default  :Koşul olmumsuzlukları sonucu.
+
+        /* 
+        scitch(koşul){
+            case koşul kontrolü:
+                ....
+                break;
+            case koşul kontrolü:
+                ....
+                break;
+            case koşul kontrolü:
+                ....
+                break;
+            case koşul kontrolü:
+                ....
+                break;
+                
+                default:
+                ....
+        }
+        */
+
+        var metin           =   "";
+        var karaktersay     =   metin.length;
+
+        switch(karaktersay){
+            case 0:
+            document.write("Değer yok");
+            break;
+            case 1:
+            document.write("Metnin karakter sayısı :1"+"<br>");
+            break;
+            case 2:
+            document.write("Metnin karakter sayısı :2 "+"<br>");
+            break;
+            case 3:
+            document.write("Metnin karakter sayısı :3 "+"<br>");
+            break;
+            case 4:
+            document.write("Metnin karakter sayısı :4 "+"<br>");
+            break;
+            case 5:
+            document.write("Metnin karakter sayısı :5 "+"<br>");
+            break;
+            case 6:
+            document.write("Metnin karakter sayısı :6 "+"<br>");
+            break;
+
+            default:
+            document.write("Metnin karakter sayısı 6'dan fazladır. ")
+        }
+
+        switch(metin){
+            case "Gökhan":
+            document.write("Adımı yazdı");
+            break
+            case "Namlı":
+            document.write("Soyadımı yazdı");
+            break
+
+            default:
+                document.write("<br>"+"Boş");
+            
+        }
+
+
+        
+    </script>
+</body>
+</html>

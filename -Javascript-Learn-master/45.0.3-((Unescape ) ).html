@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+    
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+        //unescape()  : Değişken içerisindeki metnin özel karakterlerilerimi unicode (evrensel code) kodlamasına dönüştürülmüş karakterlerini çözerek değeri geriye döndürür. 
+        /*
+        Kodlamaya dahil edilmeyen karakterler. 
+        0 1 2 3 4 5 6 7 8 9
+        a b c d e f g h i j k l m n o p q s r t u w v y z x
+        A B C D E F G H İ J K L M N O P Q S R T U W V Y Z X
+        @ - _ . * + /
+       
+        */
+
+        var deger = "%3F%25%26";          
+        document.write(deger+"<br>");
+
+        var sonuc = unescape(deger);            
+        document.write(sonuc+"<br>"+"<br>");
+
+ 
+    </script>
+</body>
+</html>

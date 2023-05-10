@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+        // search ()    :   Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğini arayarak ilk eşleşmeyi sağlayan değişken içeriğinin indis değerini geriye döndürür.(düzenli ifade alabilir)
+        // i            :   İçeriğin büyük harf / küçük harf olmasına bakmaz. (Düzenli ifade)
+        
+        var metin  =  "Javascript dünya üzerinde en yaygın olarak kullanılan script dilidir."
+        document.write(metin + "<br>");
+
+        var islem  =  metin.search(/Script/i);  //Tırnakları kalırıp eğer /abx/ "/" koyarsam bu da aynı tabirdir. (Düzenli ifade simgesi:"/")
+        document.write(islem + "<br>");     
+
+
+    </script>
+</body>
+</html>

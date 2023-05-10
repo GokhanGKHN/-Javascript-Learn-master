@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+    <title>başlangıç</title>
+</head>
+
+<body>
+ <script type="text/javascript" lang="Javascript">
+//typeof    =    değişkenin veri türünü geri döndürür. 
+
+
+var isim            = "volkan";                     //string    
+var sayı            =  1;                           //Number
+var mantiksal       = true;                         //Blooean
+var isimler         = ["Volkan","Hakan"];           //ARRAY 
+var isimler2        = new Array("Volkan","Hakan");  //Object ARRAY   
+var nesnesel          = new Object();                  //Object
+var tanımsız;                                       //Undefined
+var bos             = "";                           //null
+ 
+var depo            = isim + ":" + typeof(isim); 
+document.write( depo + "<br>");
+document.write( isim + ":" + typeof(isim) + "<br>" + "<br>");          //string
+
+var depo2           = sayı + ":" + typeof(sayı);                        //number
+document.write( depo2 + "<br>");
+document.write( sayı + ":" + typeof(sayı) + "<br>" + "<br>");
+
+var depo3           = isimler + ":" + typeof(isimler);                  //array
+document.write( depo3 + "<br>");
+document.write( isimler + ":" + typeof(isimler) + "<br>" + "<br>");     // java sicript'de array, object olarak gösterir. 
+
+var depo4           = isimler2 + ":" + typeof(isimler2);                //Object ARRAY 
+document.write( depo4 + "<br>");
+document.write( isimler2 + ":" + typeof(isimler2) + "<br>" + "<br>"); 
+
+var depo5           = mantiksal + ":" + typeof(mantiksal);                //
+document.write(depo5 + "<br>");
+document.write(mantiksal + ":" + typeof(mantiksal) + "<br>" + "<br>");
+
+var depo6            = nesnesel + ":" + typeof(nesnesel);
+document.write(depo6 + "<br>");
+document.write(nesnesel + ":" + typeof(nesnesel) + "<br>" + "<br>" );
+
+var depo7            = tanımsız + ":" + typeof(tanımsız);
+document.write(depo7 + "<br>");
+document.write(tanımsız + ":" + typeof(tanımsız) + "<br>" + "<br>" );  //undefined 
+
+ </script>
+
+</body>
+
+</html>

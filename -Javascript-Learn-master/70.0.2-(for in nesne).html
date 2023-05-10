@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+   
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+
+        var ornek={isim:"Gökhan", soyisim:"Namlı", dogumTarihi:"1985"};
+        document.write(ornek+"<br>"+"<br>");
+
+        var sonuc;
+        for(sonuc in ornek){
+
+            if(ornek[sonuc]=="Gökhan"){
+                document.write("Adı"+"<br>")
+            }if(ornek[sonuc]=="Namlı"){
+                document.write("Soyadı"+"<br>")
+            }if(ornek[sonuc]=="1985"){
+                document.write("Doğum Tarihi"+"<br>")
+            }
+            document.write(ornek[sonuc]+"<br>");
+        }
+
+    </script>
+    
+</body>
+</html>

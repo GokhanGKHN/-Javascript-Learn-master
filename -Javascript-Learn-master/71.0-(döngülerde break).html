@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <div><script type="text/javascript" lang="javascript">
+        /*
+        break = Döngüden çıkmak için kullanılır. 
+        */
+
+        var baslangıc = 1;
+
+        while(baslangıc <=10){
+            document.write(baslangıc+"<br>"+"<br>")
+            
+            if(baslangıc==7){
+                break;
+            }
+            baslangıc++
+        };
+    </script>
+    </div>
+    <div>
+        <script>
+            /*
+            break = Döngüden çıkmak için kullanılır. 
+            */
+    
+            var baslangıc2 = 1;
+    
+        
+                
+               do{
+                    document.write(baslangıc2+"<br>");
+                    //if(baslangıc2==50){
+                      //  break;
+                    //}
+                    baslangıc2++
+                
+                }while(baslangıc2<=100);
+                
+        
+            </script>
+    </div>
+
+    <div>
+        <script>
+            /*
+            break = Döngüden çıkmak için kullanılır. 
+            */
+    
+           
+    
+        
+                
+               for(var baslangıc3=1;baslangıc3<=100; baslangıc3++){
+                    document.write(baslangıc3+"<br>"+"<br>"+"<br>")
+                    if (baslangıc3==55)
+                    break;
+                
+                }while(baslangıc2<=100);
+                
+        
+            </script>
+    </div>
+
+    <div>
+        <script>
+            /*
+            break = Döngüden çıkmak için kullanılır. 
+            */
+    
+           
+                var renkler=["Siyah","Beyaz","SARI","Mavi","Kırmız"];
+                var sonuc5;
+        
+                
+               for(sonuc5 in renkler){
+                    document.write(renkler[sonuc5]+"<br>"+"<br>"+"<br>")
+                    if (sonuc5==2){  //indis değerine ulaşmak istiyorsam 
+                        break;
+                    }
+                    
+                
+                }
+                
+        
+            </script>
+            <script>
+                /*
+                break = Döngüden çıkmak için kullanılır. 
+                */
+        
+               
+                    var renkler2={renk1:"LALA",renk2:"OLA",renk3:"KOLA"}; //Nesnede özellik (renk1,renk2,renk3)gelir
+                    var sonuc6;
+            
+                    
+                   for(sonuc6 in renkler2){
+                        document.write(renkler2[sonuc6]+"<br>"+"<br>"+"<br>"+"<br>"+"<br>")
+                        if (sonuc6=="renk1"){  //indis değerine ulaşmak istiyorsam 
+                           break;
+                        }
+                        
+                    
+                    }
+                    
+            
+                </script>
+    </div>
+</body>
+</html>

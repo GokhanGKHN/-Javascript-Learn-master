@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html charset=UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+
+<script type="text/javascript" lang="javascript">
+            //  try        : Hata oluşturabilecek kodlar için kullanılır. "Hata olabilme ihtimalini düşündüğmüz kodlar"
+            //  catch      : Hata oluşursa çalıştırılacak kodlar için kullanılır. 
+            //  finally    : Hata oluşsa da oluşmasa da çalışacak kodlar için kullanılır
+            //  throw      : Hata oluşturabilecek kodlar için istisnai durumlarda kullanılır. 
+
+         try{
+            
+            var isim    ="Volkan";
+            document.write(isim+"<br>");
+            throw("Değişken Tanımalam Hatası. Soyisim adındaki değişken yok");
+            document.write(soyisim+"<br>");
+
+         }
+         catch(error){
+            document.write("Hata oluştu"+"<br>");
+            document.write(error+"<br>");
+         }finally{
+            document.write("Hata olsa da olmasa da çalışacak");
+         }
+
+</script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+   <script type="text/javascript" lang="javascript">
+        var saat        = "a";
+        var verituru    = typeof (saat);
+        
+
+        if(saat>=0 && saat<=6){
+            document.write("İyi geceler");
+        }else if(saat>6 && saat<=9 ){
+            document.write("Günaydın");
+        }else if(saat>9 && saat<=16 ){
+            document.write("İyi Günler");
+        }else if(saat>16 && saat<=23 ){
+            document.write("İyi Akşamlar");
+        }else if(saat>23){
+            document.write("Girilen değer büyük");
+        }else if(verituru=="string"){
+            document.write("Değer rakamsal olmalıdır.");
+        }else{
+            document.write("Hata");
+        }
+       
+   </script> 
+</body>
+</html>

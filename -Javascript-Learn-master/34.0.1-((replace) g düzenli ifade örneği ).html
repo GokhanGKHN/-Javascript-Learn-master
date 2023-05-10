@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html;  charset=UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+        // replace ()   : Kendisine verilecek olan parametreler doğrulturusunda değişken içeriğini kontrol eder ve eşleşen değerlerini değişimini sağlayarak yeni bir içerik oluşturur. 
+        // oluşturduğu içeriği geriye döndürür. (düzenli ifade alabilir.)
+        //2 parametre alır
+        //1.parametre :  Değişecek içerik
+        //2.parametre :  Değiştikten sonra eklenecek içerik. 
+        // g          :  İçeriğin tamamı üzerinde çalışılmasını sağlar. (Düzenli ifade)
+        // i          :  İçeriğin büyük harf küçük harf olmasına bakmaz. (Düzenli ifade)
+
+
+
+        var metin =  "Php PHP Php PHP Php PHP Php PHP Php";
+        document.write(metin+"<br>");
+
+        var sonuc  = metin.replace(/PHP/g,"Javascript"); // Buradaki örnekte metinin geri kalanını değiştirmeden sadece birinci alana girilen "PHP" yi ikinci alana girilen "javasciprt" ile değiştirdi. 
+        document.write(sonuc);
+
+
+
+    </script>
+</body>
+</html>

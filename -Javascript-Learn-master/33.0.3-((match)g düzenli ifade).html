@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+        // g  :   içeriğin tamamı üzerinde çalışmasını sağlar.  (düzenli ifadedir)
+        // i  :   içeriğin büyük harf küçük harf olmasına bakmaz.  (düzenli ifade)
+
+        var metin   =   "Gökhan Namlı Javascript Eğitim Seti - Javascript A'dan Z'ye"
+        document.write(metin+"<br>");
+
+        var sonuc   =   metin.match("Javascript"); 
+        document.write(sonuc+"<br>");
+
+        var sonuc2  = metin.match(/Javascript/g); // Yukarıdaki metindeki tüm "javasciript'leri yazdı"
+        document.write(sonuc2);
+
+
+    </script>
+
+    
+</body>
+</html>

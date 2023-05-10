@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+</head>
+<body>
+   
+   <script type="text/javascript" lang="javascript">
+   // String ()   :   Değişken içeriğini mutlak olarak string veri türünde düz bir metine donuştürerek oluşturduğu değeri geriye döndürür. 
+
+   var bir  = Boolean(0) ;
+   var iki  = Boolean(1) ;
+   var uc   = 8;
+   var dort = 8.55 ;
+   var bes  = ["Gökhan","Hakan"];
+   var altı = "";
+   var yedi = new Date();
+   var seki = 8;
+   
+   var sayısal = uc + dort;                                     // Sayısal metinlerde (+) operatörü toplama yapar. Eğer olduğu gibi yazılmak istenirse aşağıdaki gibi string dönüşümü lazım.                            
+
+
+   document.write( bir +": "+typeof (bir) + "<br>");
+   document.write( iki +": "+ typeof (iki) +"<br>") ;
+   document.write( uc + ": "+typeof (uc) + "<br>");
+   document.write( dort +": "+typeof (dort) + "<br>");
+   document.write( bes +": "+ typeof (bes) + "<br>");
+   document.write( altı +": "+ typeof (altı) + "<br>");
+   document.write( yedi + ": "+typeof (yedi) + "<br>"+ "<br>"+ "<br>");
+   document.write(sayısal+"<br>"+"<br>"+"<br>")
+
+   
+   var yenibir  = String(bir);
+   var yeniiki  = String(iki);
+   var yeniuc   = String(uc);
+   var yenidort = String(dort);
+   var yenibes  = String(bes);
+   var yenialtı = String(altı);
+   var yeniyedi = String(yedi);
+   var yeniseki = String(seki)
+ 
+   var sozel = yeniuc + yenidort;                               //Metine donüşüm olursa sayısal değerler olduğu gibi yazar. 
+
+
+
+   document.write( yenibir +": "+typeof (yenibir) + "<br>");       
+   document.write( yeniiki +": "+ typeof (yeniiki) +"<br>") ;
+   document.write( yeniuc + ": "+typeof (yeniuc) + "<br>");
+   document.write( yenidort +": "+typeof (yenidort) + "<br>");
+   document.write( yenibes +": "+ typeof (yenibes) + "<br>");
+   document.write( yenialtı +": "+ typeof (yenialtı) + "<br>");
+   document.write( yeniyedi + ": "+typeof (yeniyedi) + "<br>"+ "<br>"+ "<br>");
+   document.write( yeniyedi + ": "+typeof (yeniyedi) + "<br>");
+   document.write(+sozel);
+
+
+
+   </script>    
+</body>
+</html>

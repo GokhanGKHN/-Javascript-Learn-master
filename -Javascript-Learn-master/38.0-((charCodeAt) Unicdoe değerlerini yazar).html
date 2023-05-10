@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+        // charCodeAt()                 :  Kendisine parametre olarak verilen değer doğrultusunda değişken içeriğindeki karşılığı olan karakteri bularak, karakterin Unicode (Evrensel Code) değerini geriye döndürür. 
+        // "Gökhan" Unicode karşılığı   : 71;246;107;104;97;110;
+        // "Namlı" Unicode karşılığı    : 78;97;109;108;305;
+        var metin   =  "Gökhan Namlı";
+
+        document.write(metin+"<br>");
+
+        var sonuc1   = metin.charCodeAt(0); // Evrensel code karşılığı decimal sayı sisteminde 8 bitlik karşılığıdır. 
+        var sonuc2   = metin.charCodeAt(1);
+        var sonuc3   = metin.charCodeAt(2);
+        var sonuc4   = metin.charCodeAt(3);
+        var sonuc5   = metin.charCodeAt(4);
+        var sonuc6   = metin.charCodeAt(5);
+
+        var sonuc8   = metin.charCodeAt(7); 
+        var sonuc9   = metin.charCodeAt(8);
+        var sonuc10  = metin.charCodeAt(9);
+        var sonuc11  = metin.charCodeAt(10);
+        var sonuc12  = metin.charCodeAt(11);
+        var sonuc13  = metin.charCodeAt(12);
+        
+        
+        document.write(sonuc1+"<br>");
+        document.write(sonuc2+"<br>");
+        document.write(sonuc3+"<br>");
+        document.write(sonuc4+"<br>");
+        document.write(sonuc5+"<br>");
+        document.write(sonuc6+"<br>"+"<br>");
+        
+        
+        document.write(sonuc8+"<br>");
+        document.write(sonuc9+"<br>");
+        document.write(sonuc10+"<br>");
+        document.write(sonuc11+"<br>");
+        document.write(sonuc12+"<br>");
+        document.write(sonuc13+"<br>");
+        
+
+
+
+    </script>
+</body>
+</html>

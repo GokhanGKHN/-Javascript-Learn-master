@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    <meta http-equiv="content-type" content="text/html charset=UTF-8">
+    
+    
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+
+        var isim            ="x  ";    
+        
+        
+        if(true){
+            var isim            ="y  ";     // Var'da her yeni tanımlanan değişken bir öncekini ezer. 
+            document.write(isim);
+        }
+        
+        document.write(isim);               // Global alandaki x yazılmadı onun yerine iki kez local alandaki değeri yani "y" yazdı.     
+
+    </script>
+</body>
+</html>

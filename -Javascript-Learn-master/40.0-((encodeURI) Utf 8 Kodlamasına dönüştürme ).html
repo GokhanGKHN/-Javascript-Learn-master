@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" >
+    
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+        // encodeURI()     :  Değişken içerisindeki metnin özel karakterlerini UTF-8 (Unicode dönüşüm formatı) kodlamasına dönüştürerek oluşturduğu değeri geriye döndürür. 
+        /*
+        Kodlayama dahil edilmeyen karakterler: 
+        0123456789
+        a b c d e f g h i j k l m n o p q r s t u v w x y z
+        A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+        : ; / ? @ & = + $ , # - _ . ! ~ * ' ( )
+
+        */
+
+        var deger = "http://www.extraegitim.com?EgitimSetiAdi=Javascript&Egitmen=GokhanNamlı"; //Kodlamaya dahil edilmeyen karakterler dışında kullanım olduğunda UTF-8'e çeviriyor örnek "i" yerine ı kullanılması gibi "ı" kodlayamaya dail "i" karakteri ise kodlamyama dahil değil 
+
+        document.write(deger +"<br>");
+
+        var sonuc = encodeURI(deger);
+        document.write(sonuc);
+
+    </script>
+</body>
+</html>
