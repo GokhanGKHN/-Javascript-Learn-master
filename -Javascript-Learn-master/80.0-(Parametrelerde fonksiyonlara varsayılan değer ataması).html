@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+      /*
+      function text(tutar,kdv=18){
+            var kdvTutari  = (tutar / 100) *kdv;
+            var netTutar   = tutar + kdvTutari;
+            document.write("gelen tutar:" +tutar+"<br>")
+            document.write("gelen tutarın kdv'si:" +kdvTutari+"<br>")
+            document.write("toplamı:" +netTutar+"<br>")
+        }
+
+        text(100,);      // İkinci parametre girlmesi ise NaN değerini döndürür. 
+                            //Eğer kdv gibi sabit bir değerim varsa kdv=18 diyere varsayılan olarak atanabilir. 
+        
+        */
+
+        /*
+        var text =function(tutar,kdv=18){
+            var kdvTutari  = (tutar / 100) *kdv;
+            var netTutar   = tutar + kdvTutari;
+            document.write("gelen tutar:" +tutar+"<br>")
+            document.write("gelen tutarın kdv'si:" +kdvTutari+"<br>")
+            document.write("toplamı:" +netTutar+"<br>")
+        }
+        text(100,)
+        */
+        
+        function text(tutar,kdv=18){                                //varsayılan paretmere değiştirilebilir
+            var kdvTutari  = (tutar / 100) *kdv;
+            var netTutar   = tutar + kdvTutari;
+            document.write("gelen tutar:" +tutar+"<br>")
+            document.write("gelen tutarın kdv'si:" +kdvTutari+"<br>")
+            document.write("toplamı:" +netTutar+"<br>")
+        }
+
+        text(100,9);                                                 // tek yapman gerek ikinci bir paretmere girmek
+
+    </script>
+</body>
+</html>

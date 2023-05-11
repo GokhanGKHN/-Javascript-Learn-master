@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+   
+    <title>Document</title>
+</head>
+<body>
+
+    <script type="text/javascript" lang="javascript">
+        /*
+        (function test(degerBir,degerİki="Varsayılan Değer"){    //varsayılan değer atamak için paremetrye = ve değer vermek yeterlidir. 
+            document.write("Değer bir'i yaz: "+degerBir+"<br>")
+            document.write("Değer iki'i yaz: "+degerİki+"<br>")
+        })("Merhaba")
+        */
+
+        /*
+        var deger =function(parametreOne,paremetreTwo="Varasayın"){
+            document.write("Bir "+parametreOne+" <br>");
+            document.write("İki "+paremetreTwo);
+
+        }(1,5);  //varsayılan değer istersem değiştirebilirim. Örnek paremetreTwo varsayılan değer "Varsayılan 
+                //ben bunu bu alan 5 ekleyerek değiştirebilirm. 
+        */
+
+        /*
+        var degisken =10;
+        var degiskenTwo=30;
+
+        var deger =function(parametreOne,paremetreTwo="Varasayın"){
+            document.write("Bir "+parametreOne+" <br>");
+            document.write("İki "+paremetreTwo);
+
+        }(degisken,degiskenTwo);
+        */
+        /*
+        var deger =function(parametreOne,paremetreTwo){
+            document.write("Bir "+parametreOne+" <br>");
+            document.write("İki "+paremetreTwo);
+
+        }(degisken,degiskenTwo)
+        
+        // Fonksiyon değişkenlerin üzerinde olursa undefined döndürüyor. 
+        //Kodlar yukarıdakin aşağıya okunduğu için değişkeni göremiyor ve undefined uyarısi veriyor. 
+        //Bu sadece otomatik çalışan fonskiyonlar için geçerli
+
+        var degisken =10;
+        var degiskenTwo=30;
+        */
+       var deger =function(parametreOne,paremetreTwo){
+           document.write("Bir "+parametreOne+" <br>");
+           document.write("İki "+paremetreTwo);
+           
+        }
+        var degisken =320;
+        var degiskenTwo=320;
+        
+        deger(degisken,degiskenTwo);
+        
+        
+
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+  
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+        /* 1. Örnek
+        function demo(){
+            var isim = "Volkan";
+            var soyİsim = "Alakent";
+            return isim,soyİsim;         //(Retrun'de sadece bir tanımlama yapılabilir)return kullanırsan hangi sonucu geri döndüreceğini yönetebilirsin       
+        }
+
+        var sonuc = demo();
+        document.write(sonuc)   //Sonuç döndürmez. 
+
+        
+        ---------------------------------------------------------------------------------*/
+        /* 2. Örnek 
+        var text =function (){
+            var isim = "Volkan";
+            var soyİsim = "Alakent";
+            return isim,soyİsim;         //(Retrun'de sadece bir tanımlama yapılabilir)return kullanırsan hangi sonucu geri döndüreceğini yönetebilirsin       
+        }
+
+        var sonuc = text();
+        document.write(sonuc)   //Sonuç döndürmez. 
+
+        ----------------------------------------------------------------------------------*/
+        /*
+        var text =function (){
+            var isim = "Volkan";
+            var soyİsim = "Alakent";
+            return isim,soyİsim; 
+            return isim,soyİsim;         //Birden fazla return kullanırsan sonuncuyu verir. 
+        }
+
+        var sonuc = text();
+        document.write(sonuc)   //Sonuç döndürmez. 
+        -------------------------------------------------------------------------------*/
+
+        /*
+        var demo =function (){
+            var isim = "Volkan";
+            var soyİsim = "Alakent";
+
+            return coklu = [isim,soyİsim];  // dizi halinde yazıldığı taktirde de sonuç veremeyecek 
+                 
+        }
+
+        var sonuc = demo();
+        document.write(sonuc)   //Sonuç döndürmez. 
+        -----------------------------------------------------------------------------------*/
+
+        /*
+        var demo =function (){
+            var isim    = "Volkan";
+            var soyİsim = "Alakent";
+            var coklu   = ["Gökhan","Namlı"]   // önce değikeni tanımla sonra return kullan birden fazla ise dizi kullan
+            return coklu;
+                 
+        }
+
+        var sonuc = demo();
+        document.write(sonuc)   
+        --------------------------------------------------------------------------------*/
+
+        function demo(){
+                                                // return;'dan  sonraki hiç bir işlemi yapmayacak ve fonksiyondan çıkması sağlanacak    
+            document.write("Serkan"+"<br>")
+             
+            document.write("Gökhan"+"<br>")
+            return;  
+            document.write("Hakan"+"<br>")
+            document.write("Figen"+"<br>")
+            document.write("Nazime"+"<br>")
+            
+        }
+
+        demo();
+
+        //return hem bir fonksiyondan değer döndürmek için kullanılır hem de fonksiyondan çıkılmak için kullanılır. 
+
+    </script>
+</body>
+</html>
