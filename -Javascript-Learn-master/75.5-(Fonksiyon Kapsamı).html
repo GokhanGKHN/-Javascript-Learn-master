@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+   
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript" lang="javascript">
+
+
+    //var bir="Volkan";
+    //var iki="alakent";
+        
+    /*------------------------------------------------------------------------------------------------------
+
+    function demo(){
+            document.write(bir+iki);    // Global alanda yer alan bir değişkeni fonksiyonun lokal alanından ulaşılabiliyor. 
+        }
+
+        demo()
+
+    ------------------------------------------------------------------------------------------------------*/
+
+
+    /*-------------------------------------------------------------------------------------------------------
+    function demo(){
+    var uc ="Gökhan";
+    var dort="Namlı";
+}
+
+    document.write(uc);    //Bu bir hata çünkü fonksiyonun lokalinde tanımlamnan bir değişkene global alandan erişemiyoruz. 
+    demo()                  //fonksiyon çağırsakta bir fark olmayacak 
+    --------------------------------------------------------------------------------------------------------*/
+
+    /*
+    function demo(){
+        
+    let deger ="Gökha";                   
+    let yeniDeger="Nam";
+        
+    }
+
+    document.write(deger+yeniDeger);   //let'inde farkı yok lokal alanda yer değişkene global alandan erişilemez. 
+                                        // Global alanda olan değişkene ise lokan alandan erişilebilir. 
+    */
+
+    // Const'da durum aynı 
+
+    if(true){
+        var bir="Deneme123 ";
+        
+    }
+                                        //Çok öenml, bir detay var ile kapsamlar arasında erişim sağlanabilirken let ve const ile erişemiyoruz. 
+    function demo(){
+        document.write(bir);
+    }
+
+    demo();
+    
+
+    </script>
+    
+    
+</body>
+</html>
