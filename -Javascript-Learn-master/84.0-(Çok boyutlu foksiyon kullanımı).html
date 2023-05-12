@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="tr-TR">
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    
+    <title>Document</title>
+</head>
+<body>
+<script type="text/javascript" lang="javascript">
+    /*
+    function deneme(parametreOne,parametreTwo){
+        function test(sonOne,sonTwo){
+            document.write(sonOne+"<br>")
+            document.write(sonTwo+"<br>")
+        }
+        return test(parametreOne,parametreTwo)                                      //Birinci fonksiyon içerisinde ikinci fonksiyonu çalıştırmak için {} sarı blokta işlem yap 
+    }                                                                               //İç içe fonksiyon (Çok boyutlu foksiyonlar)
+                                                                                    //return değeri dışarıya aktarmak için kullanılır
+
+    deneme(3,6)
+
+    */
+
+    /*
+    var deneme =function(parametreOne,parametreTwo){
+    var test =function(koplayalancakAlan,koplayalancakAlanİki){
+        document.write(koplayalancakAlan+"<br>")
+        document.write(koplayalancakAlanİki+"<br>")
+    }
+     test(parametreOne,parametreTwo)
+   }
+
+   deneme(5,5)
+   */
+
+
+
+   function Birinci(One,Two){
+        function İkinci(secon){
+
+            var sonuc = secon * secon
+           document.write(sonuc);
+
+        }
+        return Birinci(One) + İkinci(Two);     //Return ifadesi ile ayrı ayrı gönderim yapılabilir. 
+                                            //ilk seferde birinci sonrakinde ikinci çalışır. 
+   }
+
+degiskenOne(1,2);
+
+
+
+</script>
+</body>
+</html>
