@@ -8,16 +8,38 @@
 </head>
 <body>
     <script type="text/javascript" lang="javascript">
-        function bir(a){
+       /*
+       function bir(a){
             function iki(b){
                 function uc(c){
-
+                    return     a + b + c;
                 }
-
+                return uc;
             }
+            return iki;
         }
 
-        bir(5);
+        var sonuc = bir(5)(7)(10);
+        document.write(sonuc);
+        */
+
+        function bir(a){
+            function iki(b){
+                function uc (c){
+                    return a+b+c
+                }
+                return uc;
+            }
+            return iki;
+        }
+
+        var degisken1=5;
+        var degisken2=6;
+        var degisken3=7;
+
+        var sonuc= bir(degisken1)(degisken2)(degisken3)
+        document.write(sonuc);
+
     </script>
 </body>
 </html>
